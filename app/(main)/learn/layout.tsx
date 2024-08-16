@@ -12,7 +12,7 @@ export default function Layout({ children }: Props) {
       <MobileHeader />
       <Sidebar className='hidden lg:flex' />
       <main className='lg:pl-[256px]  h-full pt-[50px] lg:pt-0'>
-        <div className='h-full bg-indigo-500'>
+        <div className='max-w-[1056px] h-full pt-6 mx-auto'>
           {children}
         </div>
       </main>
