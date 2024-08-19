@@ -4,7 +4,7 @@ import Link from 'next/link';
 import React from 'react'
 
 type Props = {
-    title: string;
+    title: string,
 }
 
 export default function header({ title }: Props) {
