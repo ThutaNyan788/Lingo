@@ -9,7 +9,7 @@
     "lint": "next lint",
     "db:studio": "npx drizzle-kit studio",
     "db:push": "npx drizzle-kit push",
-    "db:seed":"tsx ./scripts/seed.ts"
+    "db:seed": "tsx ./scripts/seed.ts"
   },
   "dependencies": {
     "@clerk/nextjs": "^5.3.1",
@@ -17,6 +17,7 @@
     "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-slot": "^1.1.0",
+    "circular-json": "^0.5.9",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "dotenv": "^16.4.5",
